@@ -1,0 +1,29 @@
+{
+    "name": "amazon-bedrock-aws-generative-ai",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "AWS",
+        "Bedrock",
+        "LangChain"
+    ],
+    "author": "Leonardo Aranguren S",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@aws-sdk/client-bedrock": "^3.624.0",
+        "@aws-sdk/client-bedrock-runtime": "^3.624.0",
+        "@langchain/aws": "^0.0.6",
+        "@langchain/community": "^0.2.23",
+        "langchain": "^0.2.12",
+        "pdf-parse": "^1.1.1"
+    },
+    "devDependencies": {
+        "@types/node": "^22.1.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.5.4"
+    }
+}
