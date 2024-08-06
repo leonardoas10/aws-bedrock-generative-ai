@@ -18,6 +18,7 @@
         "@aws-sdk/client-bedrock-runtime": "^3.624.0",
         "@langchain/aws": "^0.0.6",
         "@langchain/community": "^0.2.23",
+        "@types/aws-lambda": "^8.10.142",
         "langchain": "^0.2.12",
         "pdf-parse": "^1.1.1"
     },
