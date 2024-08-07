@@ -7,7 +7,6 @@ import {
     BedrockRuntimeClient,
     InvokeModelCommand,
 } from '@aws-sdk/client-bedrock-runtime';
-import { ContentType } from '@aws-sdk/client-kendra';
 
 const AWS_REGION = 'us-east-1';
 
